@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.main-text{
+    font-size: 12px;
+    height: 52px;
+    text-align: left;
+    padding: 20px 0 20px 20px;
+}
+.main-text:nth-child(odd){
+    background-color: gray;
+}
+.main-text:nth-child(even){
+    background-color: white;
+}
+.boxes{
+    width: 960px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.box:nth-child(1){
+    float: left;
+    background-color: orange;
+    height: 200px;
+    width: 30%;
+    margin-right: 5%;
+}
+.box:nth-child(2){
+    float: left;
+    background-color: yellow;
+    height: 200px;
+    width: 30%;
+    margin-right: 5%;
+}
+.box:nth-child(3){
+    background-color: yellow;
+    float: left;
+    height: 200px;
+    width: 30%;
+}
+.box:nth-child(4){
+    float: left;
+    background-color:yellow;
+    height: 200px;
+    width: 30%;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+.box:nth-child(5){
+    float: left;
+    background-color: orange;
+    height: 200px;
+    width: 30%;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+.box:nth-child(6){
+    float: left;
+    background-color:yellow;
+    height: 200px;
+    width: 30%;
+    margin-top: 40px;
+}
+.box:nth-child(7){
+    float: left;
+    background-color:yellow;
+    height: 200px;
+    width: 30%;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.box:nth-child(8){
+    float: left;
+    background-color:yellow;
+    height: 200px;
+    width: 30%;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.box:nth-child(9){
+    float: left;
+    background-color: orange;
+    height: 200px;
+    width: 30%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
